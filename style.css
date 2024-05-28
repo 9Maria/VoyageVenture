@@ -1,0 +1,595 @@
+* {
+          margin:auto;
+}
+header{
+          background-image:url("../img/hawaii.jpg");
+          height:500px;
+          width:100%;
+          background-size:cover;
+}
+p{
+          color:rgba(236, 162, 162, 0.918);
+          font-family:'Century Gothic';
+          text-shadow:3px, 1px, 2px rgb(213, 197, 197);
+          margin-right:20px;
+          margin-left:40px;
+          font-size:20px;
+          margin-top:70px;
+          
+}
+h1{
+          color:rgb(195, 125, 137);
+          margin-left:400px;
+          font-family:'Century Gothic';
+          font-size:100px;
+          font-weight:bold;
+          margin-top:25px;
+}
+.sec1{
+          width:300px;
+          height:600px;
+          border:2px solid black;
+          border-radius:30px;
+          margin-left: 50px;
+          margin-top:20px;
+          display:inline-block;
+          
+         
+}
+.fr1 {
+          width:200px;
+          height:350px;
+          border:3px solid black;
+          border-radius:30px;
+         animation:bgchange 15s infinite;
+         margin-left:45px;
+         margin-top:15px;
+         padding: 0px;
+         background-image: url("../img/rome.jpg");
+         animation-play-state:paused;
+}
+.fr1:hover {
+         animation-play-state: running;
+        
+}
+      @keyframes bgchange {
+          0%, 100% {background-image: url("../img/rome.jpg"); background-size:cover}
+          20% {background-image: url("../img/venice2.jpg");background-size:cover}
+          40% {background-image: url("../img/florence.jpg");background-size:cover}
+          60% {background-image: url("../img/verone.jpg");background-size:cover}
+          80% {background-image: url("../img/milan1.jpg");background-size:cover}
+      }
+
+
+h2{
+          color:rgb(240, 169, 36);
+          font-family:'Century Gothic';
+          font-style: italic;
+          padding-left:20px;
+          padding-right:20px;
+          padding-top:20px;
+          padding-bottom:10px;
+          text-align:center;
+}
+.price1{
+          color:white;
+          width: 200px;
+          height:3px;
+          background-color:red;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          padding-top:20px;
+          padding-bottom:20px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.pr1{
+          
+          text-align:center;
+}
+.inf1{
+          text-decoration: none;
+          color:red;
+          width: 200px;
+          height:30px;
+          background-color:white;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          margin-top:20px;
+          padding-bottom:10px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.italy{
+          padding-top:20px;
+}
+a{
+          color:red;
+          text-decoration: none;
+}
+body{
+          font-family:'Century Gothic';
+}
+img{
+          width:250px;
+          height:350px;
+          padding:25px;
+          BACKGROUND-SIZE:COVER;
+          
+}
+.sec2{
+          width:300px;
+          height:600px;
+          border:2px solid black;
+          border-radius:30px;
+          margin-left:50px;
+          margin-top:20px;
+          margin-bottom: 0px;
+          display:inline-block;
+          animation: pictures 5s infinite;
+          animation-direction:normal ;
+}
+.fr2{
+          width:200px;
+          height:350px;
+          border:3px solid black;
+          border-radius:30px;
+         animation:bgchange1 5s infinite;
+         margin-left:45px;
+         margin-top:15px;
+         padding: 0px;
+       
+         animation-play-state:paused;
+}
+.fr2:hover{
+         animation-play-state: running;
+}
+@keyframes bgchange1{
+          0%, 100%{background-image: url("../img/france.jpg"); background-size:cover}
+          20%{background-image: url("../img/rouen.jpg"); background-size:cover}
+          40%{background-image: url("../img/south.jpg"); background-size:cover}
+          60%{background-image: url("../img/paris.jpg"); background-size:cover}
+          80%{background-image: url("../img/sanmichel.jpg"); background-size:cover}
+}
+
+
+
+
+
+.price2{
+          color:white;
+          width: 200px;
+          height:3px;
+          background-color:red;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          padding-top:20px;
+          padding-bottom:20px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.pr2{
+          
+          text-align:center;
+}
+.inf2{
+          text-decoration: none;
+          color:red;
+          width: 200px;
+          height:30px;
+          background-color:white;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          margin-top:20px;
+          padding-bottom:10px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.france{
+          padding-top:20px;
+}
+.sec3{
+          width:300px;
+          height:600px;
+          border:2px solid black;
+          border-radius:30px;
+          margin-left:50px;
+          margin-top:20px;
+          display:inline-block;
+          animation: pictures 5s infinite;
+          animation-direction:normal ;
+}
+.fr3{
+     
+        width:200px;
+        height:350px;
+        border:3px solid black;
+        border-radius:30px;
+       animation:br1 10s infinite;
+       margin-left:45px;
+       margin-top:15px;
+       padding: 0px;
+      
+       animation-play-state:paused;
+}
+.fr3:hover {
+       animation-play-state: running;
+      
+}
+    @keyframes br1 {
+        0%, 100% {background-image: url("../img/uk.jpg"); background-size:cover}
+        20% {background-image: url("../img/bkpalace.png");background-size:cover}
+        40% {background-image: url("../img/belfast1.jpg");background-size:cover}
+        60% {background-image: url("../img/bridge.jpg");background-size:cover}
+        80% {background-image: url("../img/brf.jpg");background-size:cover}
+    }
+    
+
+
+
+.price3{
+          color:white;
+          width: 200px;
+          height:3px;
+          background-color:red;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          padding-top:20px;
+          padding-bottom:20px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.pr3{
+          
+          text-align:center;
+}
+.inf3{
+          text-decoration: none;
+          color:red;
+          width: 200px;
+          height:30px;
+          background-color:white;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          margin-top:20px;
+          padding-bottom:10px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.UK{
+          padding-top:20px;
+}
+.sec4{
+          width:300px;
+          height:600px;
+          border:2px solid black;
+          border-radius:30px;
+          margin-left:50px;
+          margin-top:20px;
+          display:inline-block;
+          
+        
+}
+.fr4{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation:usa 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr4:hover {
+    animation-play-state: running;
+   
+ }
+ @keyframes usa {
+     0%, 100% {background-image: url("../img/usa.jpg"); background-size:cover}
+     20% {background-image: url("../img/sae.jpg");background-size:cover}
+     40% {background-image: url("../img/ostin.jpg");background-size:cover}
+     60% {background-image: url("../img/olbany.jpg");background-size:cover}
+     80% {background-image: url("../img/$.jpg");background-size:cover}
+ }
+.price4{
+          color:white;
+          width: 200px;
+          height:3px;
+          background-color:red;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          padding-top:20px;
+          padding-bottom:20px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.pr4{
+          
+          text-align:center;
+}
+.inf4{
+          text-decoration: none;
+          color:red;
+          width: 200px;
+          height:30px;
+          background-color:white;
+          border:2px solid red;
+          border-radius:75px;
+          padding-left:20px;
+          padding-right:10px;
+          margin-top:20px;
+          padding-bottom:10px;
+          text-align:center;
+          vertical-align:bottom;
+}
+.USA{
+          padding-top:20px;
+}
+.sec5{
+    width:300px;
+    height:600px;
+    border:2px solid black;
+    border-radius:30px;
+    margin-left:50px;
+    margin-top:20px;
+    display:inline-block;
+    animation: pictures 5s infinite;
+    animation-direction:normal ;
+}
+.fr5{
+
+  width:200px;
+  height:350px;
+  border:3px solid black;
+  border-radius:30px;
+ animation:br 10s infinite;
+ margin-left:45px;
+ margin-top:15px;
+ padding: 0px;
+
+ animation-play-state:paused;
+}
+.fr5:hover {
+ animation-play-state: running;
+
+}
+@keyframes br {
+  0%, 100% {background-image: url("../img/st.jpg"); background-size:cover}
+  20% {background-image: url("../img/sc.png");background-size:cover}
+  40% {background-image: url("../img/pic.jpg");background-size:cover}
+  60% {background-image: url("../img/bath.jpg");background-size:cover}
+  80% {background-image: url("../img/beach2.jpg");background-size:cover}
+}
+
+
+
+
+.price5{
+    color:white;
+    width: 200px;
+    height:3px;
+    background-color:red;
+    border:2px solid red;
+    border-radius:75px;
+    padding-left:20px;
+    padding-right:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+    vertical-align:bottom;
+}
+.pr5{
+    
+    text-align:center;
+}
+.inf5 {
+    text-decoration: none;
+    color:red;
+    width: 200px;
+    height:30px;
+    background-color:white;
+    border:2px solid red;
+    border-radius:75px;
+    padding-bottom: 5px;;
+    margin-top:20px;
+    
+    text-align:center;
+    vertical-align:bottom;
+}
+.fr6{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation: ma 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr6:hover {
+    animation-play-state: running;
+   
+ }
+ @keyframes ma {
+     0%, 100% {background-image: url("../img/hotels.jpg"); background-size:cover}
+     20% {background-image: url("../img/umbrella.jpg");background-size:cover}
+     40% {background-image: url("../img/eda.jpg");background-size:cover}
+     60% {background-image: url("../img/palms.jpg");background-size:cover}
+     80% {background-image: url("../img/moon.jpg");background-size:cover}
+ }
+ .fr7{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation: ta 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr7:hover {
+    animation-play-state: running;
+}
+@keyframes ta {
+    0%, 100% {background-image: url("../img/budda.jpg"); background-size:cover}
+    20% {background-image: url("../img/temple.jpg");background-size:cover}
+    40% {background-image: url("../img/woman.jpg");background-size:cover}
+    60% {background-image: url("../img/nature.jpg");background-size:cover}
+    80% {background-image: url("../img/sundown.jpg");background-size:cover}
+}
+.fr8{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation:ind 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr8:hover {
+    animation-play-state: running;
+}
+@keyframes ind {
+    0%, 100% {background-image: url("../img/villa.png"); background-size:cover}
+    20% {background-image: url("../img/rock.jpg");background-size:cover}
+    40% {background-image: url("../img/fields.jpg");background-size:cover}
+    60% {background-image: url("../img/people.jpg");background-size:cover}
+    80% {background-image: url("../img/gates.jpeg");background-size:cover}
+}
+.fr9{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation:ir 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr9:hover {
+    animation-play-state: running;
+}
+@keyframes ir {
+    0%, 100% {background-image: url("../img/square.jpg"); background-size:cover}
+    20% {background-image: url("../img/Tegeran.jpg");background-size:cover}
+    40% {background-image: url("../img/isf.jpg");background-size:cover}
+    60% {background-image: url("../img/caption.jpg");background-size:cover}
+    80% {background-image: url("../img/palas.jpg");background-size:cover}
+}
+.fr10{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation: ger 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr10:hover {
+    animation-play-state: running;
+}
+@keyframes ger {
+    0%, 100% {background-image: url("../img/city.jpg"); background-size:cover}
+    20% {background-image: url("../img/cast.jpg");background-size:cover}
+    40% {background-image: url("../img/forest.jpg");background-size:cover}
+    60% {background-image: url("../img/village.jpg");background-size:cover}
+    80% {background-image: url("../img/church1.jpg");background-size:cover}
+}
+.fr11{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation: sk 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr11:hover {
+    animation-play-state: running;
+}
+@keyframes sk {
+    0%, 100% {background-image: url("../img/tower.jpg"); background-size:cover}
+    20% {background-image: url("../img/fountains.jpg");background-size:cover}
+    40% {background-image: url("../img/b.jpg");background-size:cover}
+    60% {background-image: url("../img/Seoul-5.jpg");background-size:cover}
+    80% {background-image: url("../img/nature2.jpg");background-size:cover}
+}
+.fr12{
+     
+    width:200px;
+    height:350px;
+    border:3px solid black;
+    border-radius:30px;
+   animation: j 10s infinite;
+   margin-left:45px;
+   margin-top:15px;
+   padding: 0px;
+  
+   animation-play-state:paused;
+}
+.fr12:hover {
+    animation-play-state: running;
+}
+@keyframes j {
+    0%, 100% {background-image: url("../img/jap.jpg"); background-size:cover}
+    20% {background-image: url("../img/volcano.webp");background-size:cover}
+    40% {background-image: url("../img/arasijama.jpg");background-size:cover}
+    60% {background-image: url("../img/13926.jpg");background-size:cover}
+    80% {background-image: url("../img/k.jpg");background-size:cover}
+}
+footer{
+    background-color: rgb(49, 49, 175);
+    width:100%;
+    height:200px;
+    margin-top:50px;
+}
+.l{
+    margin-left:630px;
+    color:white;
+    padding-top:90px;
+    font-size: large;
+}
+#share_button:checked ~ .sm_list a:nth-child(4){
+    background-color: #1077ec;
+    transition-delay: 0.3s;
+    transform: translateX(-12em);
+}
+

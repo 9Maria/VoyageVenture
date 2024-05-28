@@ -1,0 +1,247 @@
+body{
+    font-family: 'Century Gothic';
+    font-size:18px;    
+}
+header{
+   
+    background-size:cover;
+    height:150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+          color:rgb(210, 140, 35);
+          margin-left:600px;
+          font-weight:bold;
+          margin-top:25px;
+          font-size:50px;
+          font-style: italic;
+}
+img{
+          margin-left:50px;
+          border:2px solid black;
+          margin-top:15px;
+          display: inline-block;
+          width:500px;
+          height:400px;
+          vertical-align: top;
+                   
+}
+.a1{
+    text-decoration:none;
+    color:white;
+}
+.a1:hoiver{
+    background-color:rgb(187, 215, 215);
+    
+}
+.description1 {
+          margin-top:10px;
+          display: inline-block;
+          font-weight:bold;
+          font-size: 18px;
+         margin-left:10px;
+          width:300px;
+          height: 300px;
+          vertical-align: top;
+        
+}
+footer{
+          background-color:rgb(26, 26, 118);
+          height:100px;
+          width:100%;
+          text-align:middle;
+          margin:auto;
+          padding-bottom:0px;
+          
+}
+.share{
+          margin-left:350px;
+          width:100px;
+          height:50px;
+          padding-top:25px;
+          padding-left:300px;
+}
+.bn{
+          border:2px solid red;
+          border-radius:75px;
+          width:200px;
+          height:15px;
+          animation:crazy 4s alternate infinite;
+          margin-left:730px;
+          margin-top: 10px;
+          background-color:red;
+          padding:10px;
+          text-align: center;
+          display:inline-block;
+          PADDING-BOTTOM:15PX;
+          text-decoration: none;
+          
+}
+.bn:hover{
+    background-color:rgb(164, 193, 193);
+    transition:2s;
+}
+.share{
+    text-decoration:none;
+    color:white;
+}
+
+@keyframes crazy{
+          0%{
+                    transform:scale(1);
+          }
+          100%{
+                    transform:scale(1.4);
+          }
+}
+
+
+.arrow1{
+    border:2px solid black;
+    border-radius:100px;
+    display:inline-block;
+}
+.back{
+    background-color:azure;
+    color:orange;
+    text-align:middle;
+    display:inline-block;
+    border:2px solid white;
+    vertical-align:middle;
+    padding-top: 18px;
+    width:100px;
+    height:25px;
+    text-decoration:none;
+    margin-top:30px;
+    padding:10px;
+    padding-left: 15px;
+    margin-left:550px;
+}
+h2{
+    color:rgb(210, 140, 35);
+    margin-left:570px;
+    font-weight:bold;
+    margin-top:25px;
+    font-size:50px;
+    font-style: italic;
+}
+.top{
+    background-color:azure;
+    color:orange;
+    text-align:middle;
+    display:inline-block;
+    border:2px solid white;
+    vertical-align:middle;
+    padding-top: 18px;
+    width:100px;
+    height:25px;
+    text-decoration:none;
+    margin-top:30px;
+    padding:10px;
+    padding-left: 15px;
+}
+
+
+
+div.parent{ 
+    border:solid black 2px;
+    display:table;
+    padding:5px; 
+    width:1400px;
+    margin:20px 0; 
+    border-radius:30px;
+    margin-left:20px;
+    height: 500px;
+    padding-top:70px;
+}
+div.text{ 
+    vertical-align:top;
+    display:table-cell;
+    text-align:justify;
+    padding-left:20px;
+    margin-top:20px;
+}
+div.parent .img{
+    vertical-align:top;
+    display:table-cell;
+   
+    width:50px; 
+}
+div.img img{ 
+    width:500px;
+    height:400px;
+    vertical-align:top;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:15px;
+    margin-bottom:80px;
+}
+.britan{
+    background-image: url(../img/flagb.png);
+    width:100%;
+    background-size:contain;
+    height: 150px;
+}
+.france{
+    background-image: url(../img/fr.png);
+    width:100%;
+    background-size:cover;
+    height: 150px;
+}
+A{
+    text-decoration:none;
+}
+.usa{
+    background-image: url("../img/flag4.jpg");
+    background-size: contain;
+}
+.turkey{
+    background-color:red;
+}
+.italy{
+    background-image: url("../img/flagi.jpg");
+    background-size: coмver;
+}
+.maldives{
+    background-image: url("../img/Flag.png");
+    background-size: contain;
+    margin-top: auto;
+}
+.hotel{
+    margin-left:250px;
+}
+.thailand{
+    background-image: url("../img/flag5.jpg");
+    background-size: contain;
+}
+.indonesia{
+    background-image: url("../img/ind.png");
+    background-size: contain;
+    height:200px;
+    margin:auto;
+}
+.iran{
+    background-image: url("../img/ira.png");
+    background-size: contain;
+    height:200px;
+    margin:auto;
+}
+.germany{
+    background-image: url("../img/german.png");
+    background-size: contain;
+    height:200px;
+    margin:auto;
+}
+.sk{
+    background-image: url("../img/op.webp");
+    background-size: contain;
+    height:200px;
+    margin:auto;
+}
+.j{
+    background-image: url("../img/yfgfhg.jpg");
+    background-size: contain;
+    height:200px;
+    margin:auto;
+}
